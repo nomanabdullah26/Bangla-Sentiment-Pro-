@@ -1,10 +1,5 @@
 # Bangla Sentiment Pro
 
-**Mst Afrin Binte Amin, Md Abdullah Al Noman**  
-American International University-Bangladesh  
-Dhaka, Bangladesh  
-afrinbinteamin23@gmail.com, mdbdullahalnoman2623@gmail.com
-
 ---
 
 ## Abstract
@@ -168,38 +163,4 @@ This research paves the way for more nuanced and culturally aware AI systems, pr
 | 4 | Provide Python code to normalize Bengali text using the csebuetnlp/normalizer library. | NLP Preprocessing Guide | Preprocessing Bengali dataset | Text normalization script | Yes |
 | 5 | Explain how to handle Windows file paths in Python for a project located in D:\Bangla_Sentiment_Pro. | System Environment Support | Resolving pathing issues | Cross-platform path handling solutions | Yes |
 
----
-
-## 8. Project Structure
-Bangla_Sentiment_Pro/
-│
-├── api/
-│ └── main.py
-│
-├── models/
-│ ├── banglabert_model/
-│ │ ├── config.json
-│ │ ├── tokenizer_config.json
-│ │ └── tokenizer.json
-│ ├── emotion_encoder.pkl
-│ ├── model_state.pt
-│ └── sentiment_encoder.pkl
-│
-├── src/
-│ ├── model/
-│ │ ├── architecture.py
-│ │ └── init.py
-│ ├── preprocess/
-│ │ └── init.py
-│ ├── utils/
-│ │ ├── helpers.py
-│ │ └── init.py
-│ └── init.py
-│
-├── webapp/
-│ └── app.py
-│
-├── BanglaBERT_Training.ipynb
-├── requirements.txt
-└── .env
 
